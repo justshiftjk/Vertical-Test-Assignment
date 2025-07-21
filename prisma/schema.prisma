@@ -1,0 +1,33 @@
+generator client {
+  provider  = "prisma-client-js"
+  jsVersion = "esnext"
+}
+
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+model Profile {
+  id        String   @id @default(uuid())
+  email     String   @unique
+  name      String?
+  createdAt DateTime @default(now())
+  chats     Chat[]
+
+  @@map("profile")
+}
+
+model Chat {
+  id        String   @id @default(uuid())
+  userId    String
+  prompt    String
+  result    String
+  pipeline  Json?    // Store pipeline configuration as JSON
+  createdAt DateTime @default(now())
+  user      Profile  @relation(fields: [userId], references: [id])
+
+  @@map("chat")
+}
