@@ -402,11 +402,12 @@ export default function Home({ loaderData }: Route.ComponentProps) {
                 className={`rounded-full border flex justify-between items-center gap-2 bg-gradient-to-r from-${typeBorderColor[item.type] || typeBorderColor.default} to-transparent border-${typeBorderColor[item.type] || typeBorderColor.default}`}
                 key={item.id}
               >
-                <div className={`rounded-full text-white flex items-center justify-center w-12 h-12 bg-${typeBorderColor[item.type] || typeBorderColor.default}`}>
+                <div className={`shrink-0 rounded-full text-white flex items-center justify-center w-12 h-12 bg-${typeBorderColor[item.type] || typeBorderColor.default}`}>
                   <span className="text-xl font-bold">{idx + 1}</span>
                 </div>
-                <div className="flex gap-2 items-center">
-                  <span className="font-mono capitalize">{item.type}</span>
+                <div className="flex gap-2 items-center ">
+                  <span className="font-mono capitalize sm:flex hidden">{item.type}</span>
+                  <span className="font-mono capitalize sm:hidden">{item.type.charAt(0)}</span>
                   {item.param && <span className="text-gray-500 text-xs">({item.param})</span>}
                 </div>
                 <div className="flex">

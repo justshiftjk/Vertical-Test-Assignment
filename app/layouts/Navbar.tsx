@@ -40,7 +40,7 @@ export default function Navbar({ loaderData }: Route.ComponentProps) {
       {/* Navigation bar */}
       <nav className="w-full flex items-center justify-between p-4 shadow-sm h-[100px] dark:border-white dark:bg-gray-800">
         <div className="font-bold text-lg">
-          <div className="w-[200px] max-w-[100vw] p-4">
+           <div className="w-[150px] sm:w-[200px] max-w-[100vw] p-4">
             {/* Logo for light and dark mode */}
             <img
               src={logoLight}
@@ -60,7 +60,8 @@ export default function Navbar({ loaderData }: Route.ComponentProps) {
             <Form method="post" action="/home">
               <div className="flex items-center gap-4">
                 <input type="hidden" name="intent" value={"signout"} />
-                <span>{user.email}</span>
+                <span className="hidden sm:flex">{user.email}</span>
+                <span className="sm:hidden">{user.email.split("@")[0]}</span>
                 <button
                   className="dark:bg-white/20 rounded-full cursor-pointer hover:scale-105 duration-150"
                   type="submit"

@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "build": "prisma generate && react-router build",
-    "dev": "react-router dev",
+    "dev": "react-router dev --host",
     "start": "react-router-serve ./build/server/index.js",
     "typecheck": "react-router typegen && tsc",
     "postinstall": "prisma generate"
@@ -25,7 +25,8 @@
     "react-hot-toast": "^2.5.2",
     "react-router": "^7.5.3",
     "supabase": "^2.31.4",
-    "sweetalert2": "^11.22.2"
+    "sweetalert2": "^11.22.2",
+    "zod": "^3.25.76"
   },
   "devDependencies": {
     "@react-router/dev": "^7.5.3",
