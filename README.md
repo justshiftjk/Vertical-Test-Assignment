@@ -13,18 +13,18 @@ A modern, production-ready template for building full-stack React applications u
 5. Run workflow
 
 ## Running Project
-<img width="695" height="256" alt="Screenshot_3" src="https://github.com/user-attachments/assets/5dcc704f-9a0e-4eda-92a6-80a371cef3c0" />
 
 1. Input Prompt
+<img width="695" height="256" alt="Screenshot_3" src="https://github.com/user-attachments/assets/5dcc704f-9a0e-4eda-92a6-80a371cef3c0" />
+
+2. Build pipeline (or auto generate pipeline)\
 <img width="727" height="483" alt="Screenshot_5" src="https://github.com/user-attachments/assets/944fca08-3ef2-4eaf-aad8-a51db8029e68" />
 
-2. Build pipeline (or auto generate pipeline)
+3. Reorder or delete workflow
 <img width="697" height="461" alt="Screenshot_6" src="https://github.com/user-attachments/assets/279db50d-6ae6-4817-9b70-315fa71bd831" />
 
-3. Reorder or delete workflow
-<img width="737" height="149" alt="Screenshot_7" src="https://github.com/user-attachments/assets/451e7145-9b0e-4d1e-9acc-cb10babc5dac" />
-
 4. Run workflow
+<img width="737" height="149" alt="Screenshot_7" src="https://github.com/user-attachments/assets/451e7145-9b0e-4d1e-9acc-cb10babc5dac" />
 
 
 ## 🚀 Project Overview
