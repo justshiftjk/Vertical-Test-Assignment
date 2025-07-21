@@ -192,25 +192,13 @@ Deploy to Vercel:
 
 ## 🎨 Styling
 
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
+This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience.
 
 ---
 
 ## 🤝 Contributing
 
 Contributions are welcome! Please open issues and pull requests for improvements or bug fixes.
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
-
----
-
-## 📬 Contact
-
-For questions or support, open an issue or contact the maintainer.
 
 ---
 
