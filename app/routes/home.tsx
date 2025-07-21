@@ -433,7 +433,7 @@ export default function Home({ loaderData }: Route.ComponentProps) {
             }}
           />
           <div className="flex flex-col gap-3">
-            <div className="flex justify-between gap-8 items-center">
+            <div className="flex justify-between sm:gap-8 items-center gap-2 flex-col sm:flex-row">
               <div className="flex gap-2 flex-wrap">
                 <button onClick={() => { handleAddPipline("summarize") }} type="button" className="border-green-400 active:scale-95 cursor-pointer hover:scale-105 duration-100 text-white font-bold w-10 h-10 rounded-full bg-green-400">
                   S
