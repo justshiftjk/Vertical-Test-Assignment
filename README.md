@@ -3,26 +3,26 @@
 A modern, production-ready template for building full-stack React applications using React Router, Supabase, and Prisma.
 
 ---
-<img width="1086" height="897" alt="www" src="https://github.com/user-attachments/assets/4e53ba1a-5168-45f9-a60d-418a311b7cc1" />
+<img width="1086" height="897" alt="www" src="https://github.com/user-attachments/assets/2fcab607-a7ad-4e76-ab83-4773680b74a2" />
 
 
 1. Chat view
-2. Prmpt input
+2. Prompt input
 3. Pipeline Builder tool
 4. Auto suggest workflow
 5. Run workflow
 
 ## Running Project
-<img width="695" height="256" alt="Screenshot_3" src="https://github.com/user-attachments/assets/eb33d20b-dd22-4f31-92b4-bb03bfa6d4f3" />
+<img width="695" height="256" alt="Screenshot_3" src="https://github.com/user-attachments/assets/5dcc704f-9a0e-4eda-92a6-80a371cef3c0" />
 
 1. Input Prompt
-<img width="727" height="483" alt="Screenshot_5" src="https://github.com/user-attachments/assets/d0a2ce68-bd8e-44f4-b2df-7da590e8dc3f" />
+<img width="727" height="483" alt="Screenshot_5" src="https://github.com/user-attachments/assets/944fca08-3ef2-4eaf-aad8-a51db8029e68" />
 
 2. Build pipeline (or auto generate pipeline)
-<img width="697" height="461" alt="Screenshot_6" src="https://github.com/user-attachments/assets/d98ef591-37f1-4c1b-9ca1-7ed7bf7b6626" />
+<img width="697" height="461" alt="Screenshot_6" src="https://github.com/user-attachments/assets/279db50d-6ae6-4817-9b70-315fa71bd831" />
 
 4. Reorder or delete workflow
-<img width="737" height="149" alt="Screenshot_7" src="https://github.com/user-attachments/assets/482e5be8-a5de-40a6-a0b9-c084338a4ffd" />
+<img width="737" height="149" alt="Screenshot_7" src="https://github.com/user-attachments/assets/451e7145-9b0e-4d1e-9acc-cb10babc5dac" />
 
 6. Run workflow
 
