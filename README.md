@@ -21,10 +21,10 @@ A modern, production-ready template for building full-stack React applications u
 2. Build pipeline (or auto generate pipeline)
 <img width="697" height="461" alt="Screenshot_6" src="https://github.com/user-attachments/assets/279db50d-6ae6-4817-9b70-315fa71bd831" />
 
-4. Reorder or delete workflow
+3. Reorder or delete workflow
 <img width="737" height="149" alt="Screenshot_7" src="https://github.com/user-attachments/assets/451e7145-9b0e-4d1e-9acc-cb10babc5dac" />
 
-6. Run workflow
+4. Run workflow
 
 
 ## 🚀 Project Overview
@@ -141,16 +141,16 @@ npm run build
    - Update `.env` with your Supabase connection strings.
 3. **Edit `schema.prisma`**
    ```prisma
-generator client {
-  provider = "prisma-client-js"
-}
-
-datasource db {
-  provider  = "postgresql"
-  url       = env("DATABASE_URL")
-  directUrl = env("DIRECT_URL")
-}
-```
+   generator client {
+     provider = "prisma-client-js"
+   }
+   
+   datasource db {
+     provider  = "postgresql"
+     url       = env("DATABASE_URL")
+     directUrl = env("DIRECT_URL")
+   }
+   ```
 4. **Generate Migration & SQL File**
    ```bash
    npx prisma migrate dev --name init
